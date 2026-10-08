@@ -9,7 +9,7 @@ def classify(price: float) -> str:
       - return 'cafe paradiso' when price is 17.50 or greater
       - return 'error' when price is is 0 or less
     """
-
+    
     if price > 0 and price <= 5.0:
       return 'dunkin donuts'
 
