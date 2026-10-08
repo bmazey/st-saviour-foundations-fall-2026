@@ -16,3 +16,4 @@ def test_coffee():
 
     assert classify(0.0) == 'error'
     assert classify(-1.0) == 'error'
+
