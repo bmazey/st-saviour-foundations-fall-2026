@@ -8,3 +8,9 @@ def rounder(number: float) -> int:
     # TODO BONUS implement round function
 
     return 0
+    # example 7.5 -> .5, example 3.1 -> .1
+    decimal = number % 1
+    if decimal >= 0.5: 
+       return int (number) + 1
+
+    
