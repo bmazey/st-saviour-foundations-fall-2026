@@ -10,7 +10,3 @@ if __name__ == '__main__':
     #while i >= 0:
         #print (vocab[i])
         #i -= 1 
-
-    vocab = ['wile', 'caliph', 'narrative', 'sultan'] 
-    for x in vocab:
-        print(x)
