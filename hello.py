@@ -2,4 +2,20 @@
 
 if __name__ == '__main__':
     # this is a comment
-    print('welcome to computer science foundations!')
+    # print('welcome to computer science foundations!')
+
+    #example of wile List
+     #i = 0
+     #while i < 100:
+        #print(str(i) + ': I will not cheat on my Geometry Exam!')
+        #i += 1 
+
+        #example of list
+    #vocab = ['wile', 'caliph', 'narrative', 'sultan']
+    #i = len(vocab) - 1
+        #while i >= 0:
+        #print(vocab[i])
+        #i -= 1
+    vocab = ['wile', 'caliph', 'narrative', 'sultan']
+    for x in vocab:
+        print(x)
