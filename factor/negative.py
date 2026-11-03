@@ -8,6 +8,11 @@ def find_negative(numbers: list[int]) -> int:
         ex: [1, 2, 3, 14, 15] -> 0
     """
 
-    # TODO
+    negative = numbers[0]
+    i=0
+    while i < len(numbers):
+        if numbers [i] < 0:
+            negative = numbers[i]
+        i += 1
 
-    return 0
+    return negative 
