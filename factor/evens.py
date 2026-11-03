@@ -1,4 +1,7 @@
 
+from typing import Any
+
+
 def evens_only(numbers: list[int]) -> list[int]:
     """
     evens_only() is a function which accepts a list of integers
@@ -6,7 +9,14 @@ def evens_only(numbers: list[int]) -> list[int]:
     The returned list should preserve the original order.
         ex: [2, 7, 12, 1, 10] -> [2, 12, 10]
     """
+    evennumbers = []
 
-    # TODO +5 Bonus
+    if not numbers:
+        return []
+    for number in numbers:
+        if number % 2 == 0:
+            evennumbers.append
+            
+    
 
-    return []
+    return evennumbers

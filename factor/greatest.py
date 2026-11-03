@@ -6,6 +6,11 @@ def find_greatest(numbers: list[int]) -> int:
         ex: [4, 7, 9, 11, 0] -> 11
     """
 
-    # TODO
+    great = numbers[0]
+    i = 1
+    while i < len(numbers):
+        if numbers[i] > great:
+            great = numbers[i]
+        i += 1
 
-    return 0
+    return great
