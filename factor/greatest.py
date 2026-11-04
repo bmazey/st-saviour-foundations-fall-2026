@@ -5,10 +5,13 @@ def find_greatest(numbers: list[int]) -> int:
     and returns the greatest number found within the list.
         ex: [4, 7, 9, 11, 0] -> 11
     """
-
+    
+    # create a variable that points to the first item
     great = numbers[0]
     i = 1
+
     while i < len(numbers):
+        # if the number we're on is bigger than great, update
         if numbers[i] > great:
             great = numbers[i]
         i += 1

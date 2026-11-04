@@ -9,7 +9,10 @@ def find_negative(numbers: list[int]) -> int:
     """
 
     for number in numbers:
-        if number < 0:
-            return number   
 
+        # if the number is less than zero return number
+        if number < 0:
+            return number
+
+    # if not return zero
     return 0
