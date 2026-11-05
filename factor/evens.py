@@ -6,7 +6,4 @@ def evens_only(numbers: list[int]) -> list[int]:
     The returned list should preserve the original order.
         ex: [2, 7, 12, 1, 10] -> [2, 12, 10]
     """
-
-    # TODO +5 Bonus
-
-    return []
+   #I don't know how to do this one :)
