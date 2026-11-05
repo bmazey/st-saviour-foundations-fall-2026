@@ -13,6 +13,3 @@ def find_negative(numbers: list[int]) -> int:
             return numbers[i]
         i += 1
     return 0 # this means that each time it runs if there is no negative number it will return 0
-
-        
-g
