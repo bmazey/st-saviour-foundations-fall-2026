@@ -12,5 +12,4 @@ def find_greatest(numbers: list[int]) -> int:
         if numbers [i] > greatest: #checking if its bigger than the previous number
             greatest = numbers[i] #setting the greatest number so far to be the greatest
         i += 1 #moveing on tho the next item on the list
-    
     return greatest #continue the loop, and return the greatest when finished

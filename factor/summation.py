@@ -11,5 +11,4 @@ def summation(numbers: list[int]) -> int:
     while i < len(numbers): #while it is in the list continue to the next thing
         sum += numbers[i] #take the previous sum and add the current number on the list
         i += 1 #continue to the next thing on the list
-
     return sum #once all things from the list are added, return the sum.
