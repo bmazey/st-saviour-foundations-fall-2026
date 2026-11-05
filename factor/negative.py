@@ -8,6 +8,13 @@ def find_negative(numbers: list[int]) -> int:
         ex: [1, 2, 3, 14, 15] -> 0
     """
 
-    # TODO
+    # address the case were numbers is empty 
+    if len(numbers) == 0:
+        return 0
+    
+    for n in numbers:
+        # check if n is negative
+        if n < 0:
+            return n
 
     return 0
