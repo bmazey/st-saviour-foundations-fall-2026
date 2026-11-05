@@ -6,10 +6,4 @@ def evens_only(numbers: list[int]) -> list[int]:
     The returned list should preserve the original order.
         ex: [2, 7, 12, 1, 10] -> [2, 12, 10]
     """
-
-    i = 0
-    while i < len(numbers):
-        if numbers[i] % 2 == 0:
-            print (numbers[i])
-        i += 1
-        
+   #I don't know how to do this one :)

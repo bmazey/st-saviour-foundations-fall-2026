@@ -8,9 +8,9 @@ def find_negative(numbers: list[int]) -> int:
         ex: [1, 2, 3, 14, 15] -> 0
     """
 
-    i=0
-    while  i < len(numbers):
-        if numbers[i] < 0:
-            return numbers[i]    
-        i += 1
-    return 0
+    i=0 #starting at the first thing on the list
+    while  i < len(numbers): #while the number is in the list
+        if numbers[i] < 0: #checking for a negative number
+            return numbers[i] #returns a number if its negative
+        i += 1 #if number isnt negative it moves on to the next number on the list, repeat from start
+    return 0 #once i > len(numbers), zero will be returned, showing that there are no negatives
