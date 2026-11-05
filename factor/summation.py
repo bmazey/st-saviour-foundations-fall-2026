@@ -6,6 +6,11 @@ def summation(numbers: list[int]) -> int:
     ex: [2, 1, 3, 1, 0] -> 7
     """
 
-    # TODO
-
-    return 0
+    sum = 0
+    i = 0
+    while i < len(numbers):
+        sum += numbers[i]  
+        #return the sum of number
+        i += 1
+        #sum of all numbers in list
+    return sum 
