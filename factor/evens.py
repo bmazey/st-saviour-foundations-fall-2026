@@ -9,4 +9,7 @@ def evens_only(numbers: list[int]) -> list[int]:
 
     # TODO +5 Bonus
 
-    return []
+i = 0
+while i <len(numbers):
+    if numbers[i]/2:
+        return

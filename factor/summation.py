@@ -8,4 +8,10 @@ def summation(numbers: list[int]) -> int:
 
     # TODO
 
-    return 0
+    sum = 0 
+    i = 0 # this means that it will start with position 0
+    while i < len(numbers): # meaning that it will stay in the number range
+        sum += numbers[i]
+        i+=1 # will continue adding to i
+
+    return sum # will give back the sum if correct
