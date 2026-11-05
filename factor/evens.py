@@ -15,7 +15,7 @@ def evens_only(numbers: list[int]) -> list[int]:
     
     for number in numbers:
         # if number modelo 2 it equals 0 
-        if numbers % 2 == 0:
+        if number % 2 == 0:
             evennumbers.append(number)
 
     return evennumbers
