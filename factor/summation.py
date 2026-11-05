@@ -7,9 +7,12 @@ def summation(numbers: list[int]) -> int:
     """
 
     sum = 0 
+    # if i equals zero then we start at zero 
     i = 0 
     while i < len(numbers):
+        # sum 
         sum += numbers[i]
+        # i is plus or equal to one meaning i starts at one 
         i += 1 
 
     return sum
