@@ -5,7 +5,11 @@ def summation(numbers: list[int]) -> int:
     and returns the sum of all numbers found within the list.
     ex: [2, 1, 3, 1, 0] -> 7
     """
+    # Summation the first nummber in the list
+    sum = 0
+    # Set into start from the first in the list
+    i = 0
+    while i < len(numbers):
+        sum += numbers [1] 
 
-    # TODO
-
-    return 0
+    return sum

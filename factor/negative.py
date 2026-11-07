@@ -7,7 +7,11 @@ def find_negative(numbers: list[int]) -> int:
         ex: [4, 7, -9, 11, 0] -> -9
         ex: [1, 2, 3, 14, 15] -> 0
     """
-
-    # TODO
-
-    return 0
+    #comment
+    i = 0
+    #comment
+    while i < len (numbers):
+        if numbers [i] < 0:
+            return numbers[i]
+        i+= 1
+        return 0
