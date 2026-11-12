@@ -8,6 +8,9 @@ def find_negative(numbers: list[int]) -> int:
         ex: [1, 2, 3, 14, 15] -> 0
     """
 
-    # TODO
-
-    return 0
+    i = 0 # setting i to 1 allows emliminations to occur which 
+    while i < len (numbers):
+        if numbers [i] < 0:
+            return numbers[i]
+        i += 1 # this causes other options to be eliminated
+    return 0 
