@@ -9,6 +9,9 @@ def find_greatest(numbers: list[int]) -> int:
     greatest = numbers[0] # setting the lowest to zero
     i = 0
     while i < len(numbers):
-     if numbers[i] > 0:
-        return len(numbers)
+     if numbers[i] > greatest:
+        greatest = numbers[i]
+     i += 1
+
+    return greatest
 
